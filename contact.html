@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - PT Maju Bersama</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; }
+        nav {
+            background: #2c3e50;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav .logo { color: white; font-size: 24px; font-weight: bold; }
+        nav a { color: white; text-decoration: none; margin-left: 20px; }
+        nav a:hover { color: #3498db; }
+        .content { padding: 60px 100px; }
+        .content h1 { font-size: 36px; color: #2c3e50; margin-bottom: 30px; }
+        .info p { font-size: 18px; color: #555; margin-bottom: 15px; }
+        .form { margin-top: 40px; max-width: 500px; }
+        .form input, .form textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .form textarea { height: 120px; resize: vertical; }
+        .form button {
+            background: #2c3e50;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .form button:hover { background: #3498db; }
+        footer { background: #2c3e50; color: white; text-align: center; padding: 20px; margin-top: 60px; }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">PT Maju Bersama</div>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+    <div class="content">
+        <h1>Hubungi Kami</h1>
+        <div class="info">
+            <p>📧 Email: info@majubersama.com</p>
+            <p>📞 Telepon: +62 812-3456-7890</p>
+            <p>📍 Alamat: Jl. Teknologi No. 1, Jakarta Selatan, Indonesia</p>
+        </div>
+        <div class="form">
+            <h2 style="margin-bottom:20px; color:#2c3e50;">Kirim Pesan</h2>
+            <input type="text" placeholder="Nama Anda">
+            <input type="email" placeholder="Email Anda">
+            <textarea placeholder="Pesan Anda"></textarea>
+            <button type="button">Kirim Pesan</button>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2026 PT Maju Bersama. All rights reserved.</p>
+    </footer>
+</body>
+</html>
